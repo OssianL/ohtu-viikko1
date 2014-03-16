@@ -93,7 +93,6 @@ public class VarastoTest {
         double maara = varasto.otaVarastosta(-1);
         
         assertEquals(0, maara, vertailuTarkkuus);
-        assertEquals(1, 0); //fdaslkjöasfd
     }
 
     @Test
