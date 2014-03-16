@@ -92,7 +92,7 @@ public class VarastoTest {
     public void eiVoiOttaaNegatiivistaMaaraa() {
         double maara = varasto.otaVarastosta(-1);
         
-        assertEquals(0, maara, vertailuTarkkuus);
+        assertEquals(0, maara, vertailuTarkkuus);//muutos lulzis pulzis
     }
 
     @Test
